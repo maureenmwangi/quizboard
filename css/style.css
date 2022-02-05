@@ -4,3 +4,9 @@
     padding: 0px;
 
 }
+.image{
+    background-image:url("../quizzboard\ images/jsimage.png");
+    height: 500px;
+    color:yellow;
+    font-size: xx-large;
+}
