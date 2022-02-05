@@ -1,4 +1,8 @@
 function myButton(){
     //code here
-    Quizboard.write("Your Results");
+    //document.write("Your Results");
+    var correct = 0
+    var currentAnswer = document.first.answer1.answera;
+    if (currentAnswer=="James Gosling")(correct++);
+    document.write(correct);
 }
