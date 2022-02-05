@@ -2,6 +2,7 @@
     box-sizing:border-box ;
     margin: 0px;
     padding: 0px;
+    font-size: 45%;
 
 }
 .image{
@@ -11,6 +12,14 @@
     font-size: xx-large;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.form{
+    font-size: 150px;
+    margin-left: 20%;
+}
+
+form label, form input {
+    font-size: 30px;
 }
 .button{
     margin: 50px;
