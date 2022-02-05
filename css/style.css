@@ -10,3 +10,11 @@
     color:yellow;
     font-size: xx-large;
 }
+.button{
+    border: 5px solid grey;
+    border-radius: 20px;
+    background-color:blue ;
+    margin: 50px;
+    width: 105px;
+    text-align: center;
+}
