@@ -12,7 +12,7 @@
 + [Licence](#licence)
 
 ## Description
-<p>This is  a website that shows a quiz form.It contains users stories and some sample questions. Here is a link of the description image</p>
+<p>This is  a website that shows a quiz form.It contains users stories and some sample questions. Here is a link of the description image url(https://www.figma.com/file/wt7JBmXoBBkfslf0Of2dAk/quizboard?node-id=0%3A1)</p>
 
 
 ## Installation
