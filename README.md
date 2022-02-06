@@ -29,8 +29,8 @@
 ## Technology Used
 * HTML - which was used to build the structure of the pages.
 
-* CSS - which was used to style the pages incuding the left aside navigation bar
-* JAVASCRIPT -  which was used to
+* CSS - which was used to style the pages incuding the left aside navigation bar.
+* JAVASCRIPT -  which was used to make the web page interactive.
 
 ## Reference
 * Materialize CSS
