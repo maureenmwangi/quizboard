@@ -9,12 +9,22 @@
     <title>Quizboard</title>
 </head>
 <body>
-    <div class="image">
-   <p> CONGRATULATIONS  FOR COMPLETING THE FIRST COURSE OF JAVASCRIPT.<br> YOURE IN THE RIGHT PLACE!</p>
+<div class="column">
+          <div class="image">
+          <p> CONGRATULATIONS  FOR COMPLETING THE FIRST COURSE OF JAVASCRIPT.<br> YOURE IN THE RIGHT PLACE!</p>
+          </div>
+    <div class="details">
+        <p>FILL IN YOUR DETAILS HERE.</p>
+        <label for="name">Name*</label>
+          <input type="name" placeholder="Full Names" id="name" required>
+          <label for="name">Email*</label>
+          <input type="email" placeholder="example@gmail.com" id="email" required>
     </div>
+</div>
     <div class="form">
-        <h2>QUESTIONS</h2>
-        <form name="first">
+        
+        <form name="first" id="questions">
+            <h2>QUESTIONS</h2>
             
             <p>1. Who invented javascript?</p>
             <ul>
@@ -74,11 +84,13 @@
             <li>  <input type="radio" id="answer5d" name="answer5" value="camelCase">
                   <label for="answer5d"> D. camelCase</label></li>
         </ul>
-        </form>
+        
         <div class="button">
             <input type="button" value="submit" onclick="myButton()">
         </div>
+    </form>
     </div>
+    <div id="text"> </div>
     <footer>
         <img src="quizzboard images/footer.jpg" alt="" class="blueimage">
         <div class="footer">

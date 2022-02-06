@@ -13,16 +13,18 @@ function myButton(){
     if (currentAnswer3==".concat")(correct++);
     if (currentAnswer4=="*=")(correct++);
     if (currentAnswer5=="camelCase")(correct++);
-        document.write(score);
-        quizboard.style.display = "none";
-        results.textContent = correct;
-    if (correct => 80){
-        results.textContent="Congratulations you did it"
+       first.style.display= "none"
+       results.textContent= correct;
+
+    
+    if (correct >4){
+       results.textContent= "Congratulations you passed!"
     }
-    else if (correct => 50) {
-        results.textContent="you're average"
-    } 
-    else if(correct< 50){
-        results.textContent="You're below average. Kindly retake the quiz"
-    } 
+    else if(correct <3){
+        results.textContent= "You're average!"
+    }
+    else if(correct <2){
+        results.textContent= "Kindly retake the quiz!"
+    }
+
 }
